@@ -1,9 +1,14 @@
 {
-  "name": "open_api",
+  "name": "yaml-ref-resolver",
   "version": "0.0.1",
-  "main": "index.js",
   "license": "MIT",
-  "scripts": {},
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/levidavidmurray/yaml-resolver.git"
+  },
+  "homepage": "https://github.com/levidavidmurray/yaml-resolver",
+  "author": "Levi Murray <levidavidmurray@gmail.com>",
   "dependencies": {
     "js-yaml": "^3.13.1"
   }
