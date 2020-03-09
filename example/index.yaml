@@ -1,0 +1,10 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: YamlResolver API
+paths:
+  $ref: ./paths/index.yaml
+components:
+  $refs:
+    - ./dto/users.yaml
+    - ./dto/posts.yaml

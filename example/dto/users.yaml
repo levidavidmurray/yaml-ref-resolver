@@ -1,0 +1,19 @@
+UserAuth:
+  properties:
+    user:
+      # Note: This is a reference used by OpenAPI spec. yaml-resolver parser ignores references starting with '#'
+      $ref: '#/components/schemas/User'
+    token:
+      type: string
+
+User:
+  properties:
+    id:
+      type: string
+    email:
+      type: string
+      format: email
+    first_name:
+      type: string
+    last_name:
+      type: string

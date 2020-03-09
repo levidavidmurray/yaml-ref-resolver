@@ -1,0 +1,30 @@
+
+/login:
+  post:
+    summary: Authentication endpoint
+    operationId: login
+    tags:
+      - auth
+    responses:
+      '200':
+        description: User information and login token
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserAuth'
+
+/user/{user_id}:
+  get:
+    summary: Returns the specified user
+    operationId: getUser
+    tags:
+      - users
+    responses:
+      '200':
+        description: User information
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+
+

@@ -1,0 +1,16 @@
+
+/posts:
+  get:
+    summary: Returns a list of posts
+    operationId: getPosts
+    tags:
+      - posts
+    responses:
+      '200':
+        description: A list of posts
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                $ref: '#/components/schemas/Post'

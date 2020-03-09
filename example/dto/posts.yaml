@@ -1,0 +1,9 @@
+Post:
+  properties:
+    id:
+      type: string
+    title:
+      type: string
+    created_at:
+      type: string
+      format: date-time
