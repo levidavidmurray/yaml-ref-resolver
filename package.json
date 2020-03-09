@@ -5,9 +5,9 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/levidavidmurray/yaml-resolver.git"
+    "url": "https://github.com/levidavidmurray/yaml-ref-resolver.git"
   },
-  "homepage": "https://github.com/levidavidmurray/yaml-resolver",
+  "homepage": "https://github.com/levidavidmurray/yaml-ref-resolver",
   "author": "Levi Murray <levidavidmurray@gmail.com>",
   "dependencies": {
     "js-yaml": "^3.13.1"
