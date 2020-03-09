@@ -1,15 +1,10 @@
 {
   "name": "open_api",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {},
-  "devDependencies": {
-    "js-yaml": "^3.13.1",
-    "json-refs": "^3.0.15"
-  },
   "dependencies": {
-    "commander": "^4.1.1",
-    "node-dir": "^0.1.17"
+    "js-yaml": "^3.13.1"
   }
 }
